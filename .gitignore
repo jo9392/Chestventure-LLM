@@ -1,5 +1,22 @@
 # Visual Studio 2015 user specific files
-.vs/
+UnrealEngine/.vs
+UnrealEngine/Saved
+UnrealEngine/Build
+UnrealEngine/Plugins
+UnrealEngine/Intermediate
+UnrealEngine/DerivedDataCache
+*.sln
+*_BuiltData.uasset
+
+# Large Files
+UnrealEngine/Content/Characters
+UnrealEngine/Content/StarterContent
+
+
+# Asset files
+UnrealEngine/Content/Asian_Village
+UnrealEngine/Content/MonsterForSurvivalGame
+
 
 # Compiled Object files
 *.slo
@@ -46,7 +63,7 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-Binaries/*
+UnrealEngine/Binaries/*
 Plugins/**/Binaries/*
 
 # Builds
@@ -67,7 +84,6 @@ Build/*/**
 Saved/*
 
 # Compiled source files for the engine to use
-Intermediate/*
 Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
